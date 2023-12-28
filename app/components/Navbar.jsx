@@ -33,7 +33,7 @@ const Navbar = () => {
   const { nav } = navData;
 
   const [active, setActive] = useState(0);
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className="w-full flex justify-center">
@@ -52,6 +52,7 @@ const Navbar = () => {
       >
         {nav.map((item, i) => (
           <Link
+            key={i}
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer ${

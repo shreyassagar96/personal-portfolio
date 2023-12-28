@@ -22,11 +22,9 @@ const ContactSection = () => {
       .then(
         (result) => {
           toast.success("Email send successfully");
-          console.log(result.text);
         },
         (error) => {
           toast.error(error.message);
-          console.log(error.text);
         }
       );
   };

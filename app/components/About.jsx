@@ -9,8 +9,9 @@ const Tab_Data = [
   {
     title: "Skills",
     id: "skills",
+    key: "1",
     content: [
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2" key={"1"}>
         <li className="mb-1">JavaScript</li>
         <li className="mb-1">Tailwind</li>
         <li className="mb-1">React</li>
@@ -29,18 +30,18 @@ const Tab_Data = [
     title: "Education",
     id: "education",
     content: [
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2" key={"2"}>
         <li className="text-primary-400 text-xl">
           Master of Science in (Computer Science)
         </li>
       </ul>,
-      <ul>
+      <ul key={"3"}>
         <li className="text-sm">Savitribai Phule Pune University, Pune.</li>
       </ul>,
-      <ul className="list-disc pl-2 mt-3">
+      <ul className="list-disc pl-2 mt-3" key={"4"}>
         <li className="text-primary-400 text-xl">Bachelor of Science (B.Sc)</li>
       </ul>,
-      <ul>
+      <ul key={"5"}>
         <li className="text-sm">
           Dr. Babasaheb Ambedkar Marathwada University, SambhajiNagar.{" "}
         </li>
@@ -51,7 +52,7 @@ const Tab_Data = [
     title: "Certifications",
     id: "certification",
     content: [
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2" key={"6"}>
         <li className="mb-1">AWS Cloud Foundation Academy</li>
         <li className="mb-1">
           Master Microservices with Spring Boot and Spring Cloud in28Minutes
@@ -88,6 +89,7 @@ const About = () => {
           src={about}
           height={400}
           width={400}
+          alt="about"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2
