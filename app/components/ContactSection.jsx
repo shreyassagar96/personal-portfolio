@@ -53,7 +53,7 @@ const ContactSection = () => {
           className="text-secondary mb-4 maz-w-md"
         >
           I am currently looking for oportunities, my inbox is always open.
-          Wheather you have a question or just want to say hi, I'll try my best
+          Wheather you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
 

@@ -29,7 +29,7 @@ const HeroSection = () => {
           className="col-span-7 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-secondary font-black mb-4 text-4xl sm:text-3xl lg:text-6xl lg:leading-normal">
-            <span className="text-primary-400 mb-2">Hello, I'm </span>
+            <span className="text-primary-400 mb-2">Hello, I&apos;m </span>
             <br />
             <TypeAnimation
               sequence={[
@@ -48,8 +48,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-xl mb-6">
-            Hello I'm Shreyas Sagar passionate Software Developer. Currently I'm
-            looking for internship oportunity.
+            Hii I&apos;m Shreyas Sagar passionate Software Developer. Currently
+            I&apos;m looking for internship oportunity.
           </p>
           <div>
             <button
