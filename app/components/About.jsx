@@ -13,6 +13,7 @@ const Tab_Data = [
     content: [
       <ul className="list-disc pl-2" key={"1"}>
         <li className="mb-1">JavaScript</li>
+        <li className="mb-1">TypeScript</li>
         <li className="mb-1">Tailwind</li>
         <li className="mb-1">React</li>
         <li className="mb-1">Redux</li>
@@ -65,6 +66,7 @@ const Tab_Data = [
           React Complete Guide (react, redux & router) by Maximilian
           Schwarzumuller, Udemy.
         </li>
+        <li className="mb-1">Generative AI with google cloud from Google.</li>
       </ul>,
     ],
   },
@@ -106,8 +108,8 @@ const About = () => {
           >
             I am a full stack developer with a passion for creating interactive
             web applications. I have experience in working with JavaScript,
-            React, Redux, NextJS, NodeJS, ExpressJS, MongoDB, Microservices,
-            Git, Github.
+            React, Redux, NextJS, NodeJS, ExpressJS, MongoDB, Git, Github and
+            AWS currently learning Microservices.
           </p>
 
           <div className="flex flex-row mt-8 justify-start gap-5 lg:text-2xl">

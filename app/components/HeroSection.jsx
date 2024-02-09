@@ -7,19 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import shreyasImg from "../../public/images/shreyas2.png";
 import Link from "next/link";
 
-const CV_FILE_URL = "http://localhost:3000/shreyas_resume.pdf";
-
 const HeroSection = () => {
-  const downloadCvAtUrl = (url) => {
-    const fileName = url.split("/").pop();
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
-
   return (
     <section id="home" className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12 pt-5">
@@ -32,6 +20,7 @@ const HeroSection = () => {
             <span className="text-primary-400 mb-2">Hello, I&apos;m </span>
             <br />
             <TypeAnimation
+              className="text-3xl"
               sequence={[
                 "Shreyas Sagar",
                 1000,
@@ -52,16 +41,15 @@ const HeroSection = () => {
             I&apos;m looking for internship oportunity.
           </p>
           <div>
-            <button
-              onClick={() => {
-                downloadCvAtUrl(CV_FILE_URL);
-              }}
+            <a
+              href="./shreyas_resume.pdf"
+              download
               data-aos="fade-down"
               data-aos-delay="200"
               className="bg-transparent text-secondary hover:bg-primary-400 hover:text-black font-bold border border-primary-400 px-6 py-3 rounded-full w-full sm:w-fit"
             >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
 

@@ -22,7 +22,7 @@ const achievementData = [
   },
   {
     metric: "Certification",
-    value: 4,
+    value: 5,
   },
 ];
 
