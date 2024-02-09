@@ -36,11 +36,11 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-xl mb-6">
+          <p className="text-[#ADB7BE] text-base sm:text-xl mb-8">
             Hii I&apos;m Shreyas Sagar passionate Software Developer. Currently
-            I&apos;m looking for internship oportunity.
+            I&apos;m looking for job oportunity.
           </p>
-          <div>
+          <div className="mb-6">
             <a
               href="./shreyas_resume.pdf"
               download

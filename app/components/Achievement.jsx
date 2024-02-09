@@ -28,7 +28,7 @@ const achievementData = [
 
 const Achievement = () => {
   return (
-    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mt-4">
+    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mt-2">
       <div
         data-aos="zoom-in-up"
         data-aos-delay="200"
